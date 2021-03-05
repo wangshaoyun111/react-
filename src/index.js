@@ -2,7 +2,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import Add from './解决this的问题'
+import Input from './表单处理/02-其他表单元素处理'
 // 使用JSX创建react元素
 // const h4 = <h4>Tom</h4>
 // const isLoading = true
@@ -90,4 +90,4 @@ import Add from './解决this的问题'
 //   }
 // }
 // 挂在到页面
-ReactDOM.render(<Add/>, document.getElementById('root'))
+ReactDOM.render(<Input/>, document.getElementById('root'))
