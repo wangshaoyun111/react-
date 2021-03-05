@@ -2,7 +2,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import Input from './表单处理/02-其他表单元素处理'
+import Input from './表单处理/04-非受控组件'
 // 使用JSX创建react元素
 // const h4 = <h4>Tom</h4>
 // const isLoading = true
