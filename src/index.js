@@ -2,6 +2,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
+import Add from './解决this的问题'
 // 使用JSX创建react元素
 // const h4 = <h4>Tom</h4>
 // const isLoading = true
@@ -48,12 +49,45 @@ import './index.css'
 // )
 
 // 行内样式 className类
-const box = (
-  <div>
-    <p style={{color:'red',width:'100px',height:'100px',backgroundColor:'skyblue'}}>Tom</p>
-    {/* 推荐使用className方式 */}
-    <p className="box">Jerry</p>
-  </div>
-)
+// const box = (
+//   <div>
+//     <p style={{color:'red',width:'100px',height:'100px',backgroundColor:'skyblue'}}>Tom</p>
+//     {/* 推荐使用className方式 */}
+//     <p className="box">Jerry</p>
+//   </div>
+// )
+
+// 函数式组件创建
+// 1.首字母大写
+// 2.内部必须有返回值,返回内容就是组件页面结构
+// function Hello() {
+//   return (
+//     <div>
+//       <h4>我是内容</h4>
+//     </div>
+//   )
+// }
+// 把函数式组件的名称当作组件标签使用即可
+// 组件标签可以是单标签也可以是双标签
+// 如果不进行任何返回值必须返回null
+// ReactDOM.render(<Hello/>, document.getElementById('root'))
+
+
+// 使用类创建组件使用ES6的class创建
+// 1.类名称首字母也是大写
+// 2.类组件需要继承 extends React.Component
+// 3.类的内部必须有个render()方法
+// 4.render()里面必须有返回值
+// class Hello extends React.Component {
+//   render() {
+//     // render()里面必须有返回值
+//     // 如果不进行任何返回值必须返回null
+//     return (
+//       <div>
+//         <h4>我是一个类组件</h4>
+//       </div>
+//     )
+//   }
+// }
 // 挂在到页面
-ReactDOM.render(box, document.getElementById('root'))
+ReactDOM.render(<Add/>, document.getElementById('root'))
