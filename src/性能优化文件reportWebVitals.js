@@ -11,3 +11,4 @@ const reportWebVitals = onPerfEntry => {
 };
 
 export default reportWebVitals;
+// 做性能优化处理
