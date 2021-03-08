@@ -2,7 +2,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import Comment from './评论案例/01-结构布局'
+import Handle from './组件通讯/02-组件props的特点'
 // 使用JSX创建react元素
 // const h4 = <h4>Tom</h4>
 // const isLoading = true
@@ -89,5 +89,9 @@ import Comment from './评论案例/01-结构布局'
 //     )
 //   }
 // }
+
+const spanHtml = (
+    <span>我是 JSX 中的span</span>
+)
 // 挂在到页面
-ReactDOM.render(<Comment/>, document.getElementById('root'))
+ReactDOM.render(<Handle name='马克' age={10} bol={true} arr={[1, 2, 3]} jsxHtml={ spanHtml }/>, document.getElementById('root'))
