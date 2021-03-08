@@ -2,7 +2,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import Input from './表单处理/04-非受控组件'
+import Comment from './评论案例/01-结构布局'
 // 使用JSX创建react元素
 // const h4 = <h4>Tom</h4>
 // const isLoading = true
@@ -90,4 +90,4 @@ import Input from './表单处理/04-非受控组件'
 //   }
 // }
 // 挂在到页面
-ReactDOM.render(<Input/>, document.getElementById('root'))
+ReactDOM.render(<Comment/>, document.getElementById('root'))

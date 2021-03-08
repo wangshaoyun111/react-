@@ -1,0 +1,10 @@
+.common {
+    margin: 50px 100px;
+    width: 400px;
+    border: 1px solid #ccc;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.content {
+    margin: 10px 0;
+}
