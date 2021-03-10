@@ -2,7 +2,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import Handle from './组件通讯/05-兄弟组件传递数据'
+import Handle from './组件通讯/06-跨组件传递数据'
 // 使用JSX创建react元素
 // const h4 = <h4>Tom</h4>
 // const isLoading = true
@@ -51,7 +51,7 @@ import Handle from './组件通讯/05-兄弟组件传递数据'
 // 行内样式 className类
 // const box = (
 //   <div>
-//     <p style={{color:'red',width:'100px',height:'100px',backgroundColor:'skyblue'}}>Tom</p>
+//     <p style={{color:'red',width:'100px',height:'100px',backgroundColor:'skyBlue'}}>Tom</p>
 //     {/* 推荐使用className方式 */}
 //     <p className="box">Jerry</p>
 //   </div>
