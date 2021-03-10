@@ -2,7 +2,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import Handle from './组件通讯/02-组件props的特点'
+import Handle from './组件通讯/05-兄弟组件传递数据'
 // 使用JSX创建react元素
 // const h4 = <h4>Tom</h4>
 // const isLoading = true
