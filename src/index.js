@@ -2,7 +2,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import Handle from './组件通讯/06-跨组件传递数据'
+import Handle from './props深入/03-props默认值'
 // 使用JSX创建react元素
 // const h4 = <h4>Tom</h4>
 // const isLoading = true
@@ -90,8 +90,16 @@ import Handle from './组件通讯/06-跨组件传递数据'
 //   }
 // }
 
-const spanHtml = (
-    <span>我是 JSX 中的span</span>
+const jsxHtml = (
+    <span>我是组件标签的子内容,来自 jsx</span>
+)
+const handleHtml = (
+    <Handle>
+        <p>我是组件标签的子内容</p>
+        <p>我是组件标签的子内容</p>
+        <p>我是组件标签的子内容</p>
+        {jsxHtml}
+    </Handle>
 )
 // 挂在到页面
-ReactDOM.render(<Handle name='马克' age={10} bol={true} arr={[1, 2, 3]} jsxHtml={ spanHtml }/>, document.getElementById('root'))
+ReactDOM.render(handleHtml, document.getElementById('root'))
