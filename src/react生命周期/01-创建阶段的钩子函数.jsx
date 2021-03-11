@@ -1,6 +1,6 @@
 import React from 'react'
 
-// 创建阶段 指 组件实例化
+// 创建阶段 指 组件从实例化创建成功， 到插入到Dom 结构中的过程
 export default class Handle extends React.Component {
     // 构造函数  初始化state数据  为事件绑定this
     constructor() {

@@ -2,7 +2,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import Handle from './react生命周期/01-创建阶段的钩子函数'
+import Handle from './react生命周期/02-更新阶段的钩子函数'
 // 使用JSX创建react元素
 // const h4 = <h4>Tom</h4>
 // const isLoading = true
