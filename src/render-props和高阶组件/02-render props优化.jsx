@@ -3,6 +3,11 @@ import dog from './dog.jpg'
 /**
  * render props 是一种 复用的技术 使用一个值为函数的props 在React 组件之间实现代码
  * 
+ * 必须将共享数据和共享数据方法提取成一个组件
+ * 
+ * 组件：提供共享数据、提供共享数据的方法
+ * 
+ * UI 结构 是组件使用者提供的
  */
 class Mouse extends React.Component {
     // 共享的数据
