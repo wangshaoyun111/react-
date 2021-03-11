@@ -8,7 +8,8 @@ import React from 'react'
 //         </div>
 //     )
 // }
-
+// 组件标签的子节点
+// 获取props的子节点用到children属性
 export default class Handle extends React.Component {
     render() {
         return (
