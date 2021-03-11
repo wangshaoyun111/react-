@@ -2,7 +2,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import Handle from './setState原理/02-setState的第二个写法'
+import Handle from './性能优化/03-props减少不必要的渲染 copy'
 // 使用JSX创建react元素
 // const h4 = <h4>Tom</h4>
 // const isLoading = true
