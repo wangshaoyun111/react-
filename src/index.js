@@ -2,7 +2,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import Handle from './性能优化/03-props减少不必要的渲染 copy'
+import Handle from './虚拟DOM/01-虚拟DOM'
 // 使用JSX创建react元素
 // const h4 = <h4>Tom</h4>
 // const isLoading = true
