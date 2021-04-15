@@ -2,7 +2,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import Handle from './路由基本使用/04-默认路由'
+import App from './Hook/多个state变量Hook'
 // 使用JSX创建react元素
 // const h4 = <h4>Tom</h4>
 // const isLoading = true
@@ -90,16 +90,16 @@ import Handle from './路由基本使用/04-默认路由'
 //   }
 // }
 
-const jsxHtml = (
-    <span>我是组件标签的子内容,来自 jsx</span>
-)
-const handleHtml = (
-    <Handle>
-        <p>我是组件标签的子内容</p>
-        <p>我是组件标签的子内容</p>
-        <p>我是组件标签的子内容</p>
-        {jsxHtml}
-    </Handle>
-)
+// const jsxHtml = (
+//     <span>我是组件标签的子内容,来自 jsx</span>
+// )
+// const handleHtml = (
+//     <Handle>
+//         <p>我是组件标签的子内容</p>
+//         <p>我是组件标签的子内容</p>
+//         <p>我是组件标签的子内容</p>
+//         {jsxHtml}
+//     </Handle>
+// )
 // 挂在到页面
-ReactDOM.render(handleHtml, document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById('root'))
